@@ -1,0 +1,39 @@
+.summary-card{
+    background-color: whitesmoke;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0 
+}
+#category-img {
+    width: 100%;
+    height: 8rem;
+    border-radius: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+.category-items {
+    color: #4b9289;
+    font-weight: bold;
+    width: 11rem;
+    height: max-content;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    
+}
+.category-items > p {
+    height: 2rem;
+    font-size: 1.1rem;
+    
+}
+
+.category-items > button {
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    background-color: #b27092;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.category-items > button:hover {
+    font-weight: bold;
+    background-color: #4b9289;
+    color: whitesmoke;
+}

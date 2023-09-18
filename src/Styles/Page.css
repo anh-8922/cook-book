@@ -1,0 +1,45 @@
+.AddNewRecipe {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    color: #452F38;
+}
+
+.addForm label {
+    margin: 0.7rem 0rem;
+}
+
+#instructions {
+    width: 60rem;
+    height: 15rem;
+}
+
+.uploadImage {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+#uploadInput > img {
+    width: 12rem;
+    object-fit: cover;
+}
+/*========================*/
+/*SINGLE PAGE*/
+/*=========================*/
+
+.single-page {
+    background-color: whitesmoke;
+    margin: 1rem;
+    padding: 2rem;
+}
